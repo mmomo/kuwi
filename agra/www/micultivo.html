@@ -11,7 +11,7 @@
   .w3-sidenav a {padding:20px}
 </style>
 
-<body>
+<body style=" background-color: #008080;">
 
 <!-- Sidenav (hidden by default) -->
 <nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left w3-green" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
@@ -37,19 +37,19 @@
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(625)-293-40-41</p>
           <hr>
 
-          <a href="micultivo.html"><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Mi Cultivo</b></p></a>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Mi Cultivo</b></p>
           <h4>Manzana : Double Red Delicius</h4>
           <p>Humedad</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
-            <div class="w3-progressbar w3-round-xlarge w3-yellow " style="width:90%">
-              <div class="w3-center w3-text-grey">90%</div>
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
             </div>
           </div>
 
           <p>Ph: 1 - 14</p>
           <div class="w3-progress-container w3-round-xlarge w3-small">
-            <div class="w3-progressbar w3-round-xlarge w3-yellow" style="width:46%">
-              <div class="w3-center w3-text-grey">6.4</div>
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:46%">
+              <div class="w3-center w3-text-white">6.4</div>
             </div>
           </div>
 
@@ -75,64 +75,21 @@
   </div>
 </div>
 
+<div class=" w3-display-middle">
+<img src="arduino_white.png" class="w3-round" alt="Norway">
+
+</div>
+<div class="w3-display-bottommiddle " style="margin-bottom: 30%;">
+  <button class="w3-btn w3-white w3-round-xxlarge w3-text-red">CONECTAR!</button>
+</div>
+
+</div>
+
+
 <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  !PAGE CONTENT! -->
 <br><br>
 
 <!-- -- -- se desplazan las noticias -->
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="NOTICIA1.png" style="width:100%">
-  <img class="mySlides" src="NOTICIA2.png" style="width:100%">
-  <img class="mySlides" src="NOTICIA3.png" style="width:100%">
-  <img class="mySlides" src="img_forest.jpg" style="width:100%">
-
-  <div class="w3-center">
-  <a class="w3-btn-floating w3-display-left w3-light-grey" onclick="plusDivs(-1)">&#10094;</a>
-  <a class="w3-btn-floating w3-display-right w3-light-grey" onclick="plusDivs(1)">&#10095;</a>
-  </div>
-</div>
-
-<!-- -- --  Mostrar los botones bonitos  -->
-<div class="w3-row-padding">
-  <div class="w3-col s4  w3-center">
-    <img src="NEWS.png" class="w3-circle w3-image" style="width:80px; height:80px;">
-    <h5>Noticias</h5>
-    <a href="estadisticas.html"><img src="estadisticas.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
-    <h5>Estadisticas</h5>
-  </div>
-
-  <div class="w3-col s4 w3-center">
-   <a href="foro.html"> <img src="COMUNIDADES.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
-    <h5>Comunidades</h5>
-    <a href="especialista.html"><img src="CONTACTAEX.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
-    <h5>Contacto</h5>
-  </div>
-
-  <div class="w3-col s4 w3-center ">
-    <a href="#"><img src="ALERTAS.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
-    <h5>Alertas</h5>
-    <a href="cultivos.html"><img src="CULTIVOS.png" class="w3-circle w3-image" style="width:80px; height:80;"></a>
-    <h5>Cultivos</h5>
-  </div>
-</div>
-
-<br>
-<br>
-
-
-
-<!-- -- -- -- -- -- -- -- -- publicidad? jaja -->
-<!--
-<div class="w3-panel w3-green w3-round w3-display-bottom">
-  <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
-  <h3>Visitante 1,000,000!!</h3>
-  <p>Eres el visitante 1,000,000.<br>Click aqui</p>
-</div>
--->
-
-<div class="w3-display-bottom">
-  <img src="PUBLI1.png" class="w3-image w3-round" style="width:120%">
-</div>
-
 <script>
 // Script to open and close sidenav
 function w3_open() {
