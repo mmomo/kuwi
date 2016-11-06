@@ -80,31 +80,8 @@
   </div>
 </div>
 
-<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  !PAGE CONTENT! -->
-<br>
-<br>
-<hr>
-<div class="w3-row w3-container">
-  <div class="w3-col s4 w3-center"><img src="CULTIVOS.png" style="width:50px; height:50;"></div>
-  <div class="w3-col s8 w3-left"><h4>Cultivos</h4></div>
-</div>
+<!-- -- --- ---- ------- -------- ---------->
 
-<div class="w3-row w3-container">
-  <div class="w3-col s4 w3-center"><a href="manzana.html"><img src="MANZANA.png" style="width:120px; height:130px;"></a></div>
-  <div class="w3-col s4 w3-center"><a href="#"><img src="FRIJOL.png" style="width:120px; height:130px;"></a></div>
-  <div class="w3-col s4 w3-center"><a href="#"><img src="NUEZ.png" style="width:120px; height:130px;"></a></div>
-</div>
-
-<div class="w3-row w3-container">
-  <div class="w3-col s4 w3-center"><a href="#"><img src="CHILE.png" style="width:120px; height:130px;"></a></div>
-  <div class="w3-col s4 w3-center"><a href="#"><img src="ALGODON.png" style="width:120px; height:130px;"></a></div>
-   <div class="w3-col s4 w3-center"><a href="#"><img src="TRIGO.png" style="width:120px; height:130px;"></a></div>
-</div>
-
-<div class="w3-row w3-container">
-  <div class="w3-col s6 w3-center"><a href="#"><img src="MAIZ.png" style="width:120px; height:130px;"></a></div>
-  <div class="w3-col s6 w3-center"><a href="#"><img src="ALFALFA.png" style="width:120px; height:130px;"></a></div>
-</div>
 
 
 <script>
