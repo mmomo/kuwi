@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>Kuwi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+  .w3-sidenav a {padding:20px}
+</style>
+
+<body>
+
+<!-- Sidenav (hidden by default) -->
+<nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left w3-green" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
+  <div class="w3-third">
+
+      <div class="w3-white w3-text-grey ">
+        <div class="w3-display-container">
+	  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large"><i class="fa fa-arrow-left w3-border"></i></a>
+	  <a href="index.html"><i class="fa fa-home">Home</i></a>
+          <img src="perfil2.png" class="w3-circle" style="width:60%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Agricultor</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chihuahua,Chih</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>migranja@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(614)-444-54-55</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Mi Cultivo</b></p>
+          <p>Humedad</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <p>Fertilizante</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Ph</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>No se que mas XD</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:50%">
+              <div class="w3-center w3-text-white">50%</div>
+            </div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Comunidad</b></p>
+          <a href="recetas.html"><p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Recetas</p></a>
+          <a href="foro.html"><p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Foro</p></a>
+          <a href="especialista.html"><p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Especialista</p></a>
+	  <a href="estadisticas.html"><p><i class="fa fa-bar-chart fa-fw w3-margin-right w3-large w3-text-teal"></i>Estadisticas</p></a>
+          
+          <br>
+        </div>
+      </div><br>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top" style="w3-red">
+  <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">☰</div>
+
+    <div class="w3-center">Kuwi</div>
+  </div>
+</div>
+
+<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  !PAGE CONTENT! -->
+<br><br>
+
+<!-- -- -- se desplazan las noticias -->
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="NOTICIA1.png" style="width:100%">
+  <img class="mySlides" src="NOTICIA2.png" style="width:100%">
+  <img class="mySlides" src="NOTICIA3.png" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+</div>
+
+<!-- -- --  Mostrar los botones bonitos  -->
+<div class="w3-row-padding">
+  <div class="w3-col s4  w3-center">
+    <img src="NEWS.png" class="w3-circle w3-image" style="width:80px; height:80px;">
+    <h5>Noticias</h5>
+    <a href="estadisticas.html"><img src="estadisticas.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
+    <h5>Estadisticas</h5>
+  </div>
+  
+  <div class="w3-col s4 w3-center">
+   <a href="foro.html"> <img src="COMUNIDADES.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
+    <h5>Comunidades</h5>
+    <a href="especialista.html"><img src="CONTACTAEX.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
+    <h5>Contacto</h5>
+  </div>
+
+  <div class="w3-col s4 w3-center">
+    <a href="#"><img src="ALERTAS.png" class="w3-circle w3-image" style="width:80px; height:80px;"></a>
+    <h5>Alertas</h5>
+    <a href="#"><img src="CULTIVOS.png" class="w3-circle w3-image" style="width:80px; height:80;"></a>
+    <h5>Cultivos</h5>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="w3-container">
+  <p>Bienvenido a Kuwi... La aplicacion que acerca a los agricultores</p>
+  <!-- <img src="field.png" class="w3-circle w3-image" style="width:80%"> -->
+</div>
+
+<!-- -- -- -- -- -- -- -- -- publicidad? jaja -->
+<!-- 
+<div class="w3-panel w3-green w3-round w3-display-bottom">
+  <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
+  <h3>Visitante 1,000,000!!</h3>
+  <p>Eres el visitante 1,000,000.<br>Click aqui</p>
+</div>
+-->
+
+<div class="w3-display-bottom">
+  <img src="PUBLI1.png" class="w3-image w3-round" style="width:120%">
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+<script>
+   var slideIndex = 1;
+   showDivs(slideIndex);
+
+   function plusDivs(n) {
+   showDivs(slideIndex += n);
+   }
+
+   function showDivs(n) {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   if (n > x.length) {slideIndex = 1}    
+   if (n < 1) {slideIndex = x.length}
+	   for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			   }
+			   x[slideIndex-1].style.display = "block";  
+			   }
+			   </script>
+
+</body>
+</html>

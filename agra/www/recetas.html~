@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  
+  <title>W3.CSS Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"><style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-sidenav a {padding:20px}
+  </style>
+
+  
+  <body>
+
+    <!-- Sidenav (hidden by default) -->
+    <nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left w3-green" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
+      <div class="w3-third">
+
+	<div class="w3-white w3-text-grey ">
+          <div class="w3-display-container">
+            <img src="perfil2.png" class="w3-circle" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2>Jane Doe</h2>
+            </div>
+          </div>
+          <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Agricultor</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chihuahua,Chih</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>migranja@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(614)-444-54-55</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Mi Cultivo</b></p>
+          <p>Humedad</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <p>Fertilizante</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Ph</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>No se que mas XD</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:50%">
+              <div class="w3-center w3-text-white">50%</div>
+            </div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Comunidad</b></p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Recetas</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Foro</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Especialista</p>
+          
+          <br>
+          </div>
+	</div><br>
+    </nav>
+
+    <div class="w3-top" style="w3-red">
+      <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+	<div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">☰</div>
+
+	<div class="w3-center">Jenny</div>
+      </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+
+    <script>
+      // Script to open and close sidenav
+      function w3_open() {
+      document.getElementById("mySidenav").style.display = "block";
+      }
+
+      function w3_close() {
+      document.getElementById("mySidenav").style.display = "none";
+      }
+    </script>
+
+  </body>
+</html>
